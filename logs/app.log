@@ -90,3 +90,11 @@ com.auth0.jwt.exceptions.TokenExpiredException: The Token has expired on Tue May
 2021-05-18 20:56:24,964 INFO c.e.d.c.UserController [http-nio-8080-exec-3] UserController: Username set with 
 2021-05-18 20:56:25,030 INFO c.e.d.c.UserController [http-nio-8080-exec-3] UserController: Cart set for user
 2021-05-18 20:56:25,131 INFO c.e.d.c.UserController [http-nio-8080-exec-3] UserController: Password set for user!
+2021-05-18 21:09:30,454 INFO c.e.d.GordonApplication [main] Starting GordonApplication on Gordons-MacBook-Pro.local with PID 54811 (/Users/gordonli/Desktop/ecommerce-app-backend/starter_code/target/classes started by gordonli in /Users/gordonli/Desktop/ecommerce-app-backend)
+2021-05-18 21:09:30,462 DEBUG c.e.d.GordonApplication [main] Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2021-05-18 21:09:30,463 INFO c.e.d.GordonApplication [main] No active profile set, falling back to default profiles: default
+2021-05-18 21:09:34,564 DEBUG c.e.d.s.JWTAuthenticationVerficationFilter [main] Filter 'JWTAuthenticationVerficationFilter' configured for use
+2021-05-18 21:09:35,256 INFO c.e.d.GordonApplication [main] Started GordonApplication in 5.376 seconds (JVM running for 7.007)
+2021-05-18 21:09:41,308 INFO c.e.d.c.UserController [http-nio-8080-exec-2] UserController: Username set with 
+2021-05-18 21:09:41,386 INFO c.e.d.c.UserController [http-nio-8080-exec-2] UserController: Cart set for user
+2021-05-18 21:09:41,484 INFO c.e.d.c.UserController [http-nio-8080-exec-2] UserController: Password set for user!
