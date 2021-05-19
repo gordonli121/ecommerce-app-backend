@@ -1,100 +1,39 @@
-2021-05-18 20:23:08,738 INFO c.e.d.GordonApplication [main] Starting GordonApplication on Gordons-MacBook-Pro.local with PID 52622 (/Users/gordonli/Desktop/ecommerce-app-backend/starter_code/target/classes started by gordonli in /Users/gordonli/Desktop/ecommerce-app-backend)
-2021-05-18 20:23:08,749 DEBUG c.e.d.GordonApplication [main] Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
-2021-05-18 20:23:08,751 INFO c.e.d.GordonApplication [main] No active profile set, falling back to default profiles: default
-2021-05-18 20:31:22,578 INFO c.e.d.GordonApplication [main] Starting GordonApplication on Gordons-MacBook-Pro.local with PID 53010 (/Users/gordonli/Desktop/ecommerce-app-backend/starter_code/target/classes started by gordonli in /Users/gordonli/Desktop/ecommerce-app-backend)
-2021-05-18 20:31:22,616 DEBUG c.e.d.GordonApplication [main] Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
-2021-05-18 20:31:22,619 INFO c.e.d.GordonApplication [main] No active profile set, falling back to default profiles: default
-2021-05-18 20:34:51,487 INFO c.e.d.GordonApplication [main] Starting GordonApplication on Gordons-MacBook-Pro.local with PID 53196 (/Users/gordonli/Desktop/ecommerce-app-backend/starter_code/target/classes started by gordonli in /Users/gordonli/Desktop/ecommerce-app-backend)
-2021-05-18 20:34:51,497 DEBUG c.e.d.GordonApplication [main] Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
-2021-05-18 20:34:51,498 INFO c.e.d.GordonApplication [main] No active profile set, falling back to default profiles: default
-2021-05-18 20:51:52,691 INFO c.e.d.GordonApplication [main] Starting GordonApplication on Gordons-MacBook-Pro.local with PID 53909 (/Users/gordonli/Desktop/ecommerce-app-backend/starter_code/target/classes started by gordonli in /Users/gordonli/Desktop/ecommerce-app-backend)
-2021-05-18 20:51:52,698 DEBUG c.e.d.GordonApplication [main] Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
-2021-05-18 20:51:52,699 INFO c.e.d.GordonApplication [main] No active profile set, falling back to default profiles: default
-2021-05-18 20:51:56,695 DEBUG c.e.d.s.JWTAuthenticationVerficationFilter [main] Filter 'JWTAuthenticationVerficationFilter' configured for use
-2021-05-18 20:51:57,319 INFO c.e.d.GordonApplication [main] Started GordonApplication in 5.027 seconds (JVM running for 6.731)
-2021-05-18 20:52:34,409 INFO c.e.d.GordonApplication [main] Starting GordonApplication on Gordons-MacBook-Pro.local with PID 53935 (/Users/gordonli/Desktop/ecommerce-app-backend/starter_code/target/classes started by gordonli in /Users/gordonli/Desktop/ecommerce-app-backend)
-2021-05-18 20:52:34,418 DEBUG c.e.d.GordonApplication [main] Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
-2021-05-18 20:52:34,419 INFO c.e.d.GordonApplication [main] No active profile set, falling back to default profiles: default
-2021-05-18 20:52:38,285 DEBUG c.e.d.s.JWTAuthenticationVerficationFilter [main] Filter 'JWTAuthenticationVerficationFilter' configured for use
-2021-05-18 20:52:38,996 INFO c.e.d.GordonApplication [main] Started GordonApplication in 5.091 seconds (JVM running for 6.892)
-2021-05-18 20:55:26,590 INFO c.e.d.GordonApplication [main] Starting GordonApplication on Gordons-MacBook-Pro.local with PID 54067 (/Users/gordonli/Desktop/ecommerce-app-backend/starter_code/target/classes started by gordonli in /Users/gordonli/Desktop/ecommerce-app-backend)
-2021-05-18 20:55:26,604 DEBUG c.e.d.GordonApplication [main] Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
-2021-05-18 20:55:26,604 INFO c.e.d.GordonApplication [main] No active profile set, falling back to default profiles: default
-2021-05-18 20:55:31,383 DEBUG c.e.d.s.JWTAuthenticationVerficationFilter [main] Filter 'JWTAuthenticationVerficationFilter' configured for use
-2021-05-18 20:55:32,824 INFO c.e.d.GordonApplication [main] Started GordonApplication in 6.872 seconds (JVM running for 8.539)
-2021-05-18 20:56:01,034 ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] [http-nio-8080-exec-2] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
-com.auth0.jwt.exceptions.TokenExpiredException: The Token has expired on Tue May 18 20:54:38 PDT 2021.
-	at com.auth0.jwt.JWTVerifier.assertDateIsFuture(JWTVerifier.java:403) ~[java-jwt-3.11.0.jar:3.11.0]
-	at com.auth0.jwt.JWTVerifier.assertValidDateClaim(JWTVerifier.java:394) ~[java-jwt-3.11.0.jar:3.11.0]
-	at com.auth0.jwt.JWTVerifier.verifyClaimValues(JWTVerifier.java:314) ~[java-jwt-3.11.0.jar:3.11.0]
-	at com.auth0.jwt.JWTVerifier.verifyClaims(JWTVerifier.java:303) ~[java-jwt-3.11.0.jar:3.11.0]
-	at com.auth0.jwt.JWTVerifier.verify(JWTVerifier.java:288) ~[java-jwt-3.11.0.jar:3.11.0]
-	at com.auth0.jwt.JWTVerifier.verify(JWTVerifier.java:271) ~[java-jwt-3.11.0.jar:3.11.0]
-	at com.example.demo.security.JWTAuthenticationVerficationFilter.getAuthentication(JWTAuthenticationVerficationFilter.java:48) ~[classes/:?]
-	at com.example.demo.security.JWTAuthenticationVerficationFilter.doFilterInternal(JWTAuthenticationVerficationFilter.java:38) ~[classes/:?]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.7.RELEASE.jar:5.1.7.RELEASE]
-	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
-	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:200) ~[spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
-	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
-	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116) ~[spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
-	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
-	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:96) ~[spring-web-5.1.7.RELEASE.jar:5.1.7.RELEASE]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.7.RELEASE.jar:5.1.7.RELEASE]
-	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
-	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:74) ~[spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.7.RELEASE.jar:5.1.7.RELEASE]
-	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
-	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105) ~[spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
-	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
-	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56) ~[spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.7.RELEASE.jar:5.1.7.RELEASE]
-	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
-	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215) ~[spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
-	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178) ~[spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
-	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:357) ~[spring-web-5.1.7.RELEASE.jar:5.1.7.RELEASE]
-	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:270) ~[spring-web-5.1.7.RELEASE.jar:5.1.7.RELEASE]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.19.jar:9.0.19]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.19.jar:9.0.19]
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) ~[spring-web-5.1.7.RELEASE.jar:5.1.7.RELEASE]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.7.RELEASE.jar:5.1.7.RELEASE]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.19.jar:9.0.19]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.19.jar:9.0.19]
-	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92) ~[spring-web-5.1.7.RELEASE.jar:5.1.7.RELEASE]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.7.RELEASE.jar:5.1.7.RELEASE]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.19.jar:9.0.19]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.19.jar:9.0.19]
-	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93) ~[spring-web-5.1.7.RELEASE.jar:5.1.7.RELEASE]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.7.RELEASE.jar:5.1.7.RELEASE]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.19.jar:9.0.19]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.19.jar:9.0.19]
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200) ~[spring-web-5.1.7.RELEASE.jar:5.1.7.RELEASE]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.7.RELEASE.jar:5.1.7.RELEASE]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.19.jar:9.0.19]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.19.jar:9.0.19]
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200) [tomcat-embed-core-9.0.19.jar:9.0.19]
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.19.jar:9.0.19]
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490) [tomcat-embed-core-9.0.19.jar:9.0.19]
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.19.jar:9.0.19]
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.19.jar:9.0.19]
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.19.jar:9.0.19]
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.19.jar:9.0.19]
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408) [tomcat-embed-core-9.0.19.jar:9.0.19]
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-9.0.19.jar:9.0.19]
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:836) [tomcat-embed-core-9.0.19.jar:9.0.19]
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1747) [tomcat-embed-core-9.0.19.jar:9.0.19]
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.19.jar:9.0.19]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) [?:?]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) [?:?]
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.19.jar:9.0.19]
-	at java.lang.Thread.run(Thread.java:832) [?:?]
-2021-05-18 20:56:24,964 INFO c.e.d.c.UserController [http-nio-8080-exec-3] UserController: Username set with 
-2021-05-18 20:56:25,030 INFO c.e.d.c.UserController [http-nio-8080-exec-3] UserController: Cart set for user
-2021-05-18 20:56:25,131 INFO c.e.d.c.UserController [http-nio-8080-exec-3] UserController: Password set for user!
-2021-05-18 21:09:30,454 INFO c.e.d.GordonApplication [main] Starting GordonApplication on Gordons-MacBook-Pro.local with PID 54811 (/Users/gordonli/Desktop/ecommerce-app-backend/starter_code/target/classes started by gordonli in /Users/gordonli/Desktop/ecommerce-app-backend)
-2021-05-18 21:09:30,462 DEBUG c.e.d.GordonApplication [main] Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
-2021-05-18 21:09:30,463 INFO c.e.d.GordonApplication [main] No active profile set, falling back to default profiles: default
-2021-05-18 21:09:34,564 DEBUG c.e.d.s.JWTAuthenticationVerficationFilter [main] Filter 'JWTAuthenticationVerficationFilter' configured for use
-2021-05-18 21:09:35,256 INFO c.e.d.GordonApplication [main] Started GordonApplication in 5.376 seconds (JVM running for 7.007)
-2021-05-18 21:09:41,308 INFO c.e.d.c.UserController [http-nio-8080-exec-2] UserController: Username set with 
-2021-05-18 21:09:41,386 INFO c.e.d.c.UserController [http-nio-8080-exec-2] UserController: Cart set for user
-2021-05-18 21:09:41,484 INFO c.e.d.c.UserController [http-nio-8080-exec-2] UserController: Password set for user!
+2021-05-18 21:50:31,392 INFO c.e.d.GordonApplication [main] Starting GordonApplication on Gordons-MacBook-Pro.local with PID 56440 (/Users/gordonli/Desktop/ecommerce-app-backend/starter_code/target/classes started by gordonli in /Users/gordonli/Desktop/ecommerce-app-backend)
+2021-05-18 21:50:31,421 DEBUG c.e.d.GordonApplication [main] Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2021-05-18 21:50:31,421 INFO c.e.d.GordonApplication [main] No active profile set, falling back to default profiles: default
+2021-05-18 21:50:37,515 DEBUG c.e.d.s.JWTAuthenticationVerficationFilter [main] Filter 'JWTAuthenticationVerficationFilter' configured for use
+2021-05-18 21:50:38,200 ERROR o.a.c.u.LifecycleBase [main] Failed to start component [Connector[HTTP/1.1-8080]]
+org.apache.catalina.LifecycleException: Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1008) ~[tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:226) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.addPreviouslyRemovedConnectors(TomcatWebServer.java:259) [spring-boot-2.1.5.RELEASE.jar:2.1.5.RELEASE]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:197) [spring-boot-2.1.5.RELEASE.jar:2.1.5.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.startWebServer(ServletWebServerApplicationContext.java:311) [spring-boot-2.1.5.RELEASE.jar:2.1.5.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:164) [spring-boot-2.1.5.RELEASE.jar:2.1.5.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:552) [spring-context-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142) [spring-boot-2.1.5.RELEASE.jar:2.1.5.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775) [spring-boot-2.1.5.RELEASE.jar:2.1.5.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) [spring-boot-2.1.5.RELEASE.jar:2.1.5.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316) [spring-boot-2.1.5.RELEASE.jar:2.1.5.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260) [spring-boot-2.1.5.RELEASE.jar:2.1.5.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248) [spring-boot-2.1.5.RELEASE.jar:2.1.5.RELEASE]
+	at com.example.demo.GordonApplication.main(GordonApplication.java:21) [classes/:?]
+Caused by: java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method) ~[?:1.8.0_291]
+	at sun.nio.ch.Net.bind(Net.java:438) ~[?:1.8.0_291]
+	at sun.nio.ch.Net.bind(Net.java:430) ~[?:1.8.0_291]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:225) ~[?:1.8.0_291]
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74) ~[?:1.8.0_291]
+	at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:239) ~[tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:213) ~[tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1116) ~[tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:1202) ~[tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:568) ~[tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1005) ~[tomcat-embed-core-9.0.19.jar:9.0.19]
+	... 14 more
+2021-05-18 21:51:14,007 INFO c.e.d.GordonApplication [main] Starting GordonApplication on Gordons-MacBook-Pro.local with PID 56473 (/Users/gordonli/Desktop/ecommerce-app-backend/starter_code/target/classes started by gordonli in /Users/gordonli/Desktop/ecommerce-app-backend)
+2021-05-18 21:51:14,016 DEBUG c.e.d.GordonApplication [main] Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2021-05-18 21:51:14,017 INFO c.e.d.GordonApplication [main] No active profile set, falling back to default profiles: default
+2021-05-18 21:51:18,418 DEBUG c.e.d.s.JWTAuthenticationVerficationFilter [main] Filter 'JWTAuthenticationVerficationFilter' configured for use
+2021-05-18 21:51:19,145 INFO c.e.d.GordonApplication [main] Started GordonApplication in 5.734 seconds (JVM running for 7.845)
