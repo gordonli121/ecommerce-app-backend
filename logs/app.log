@@ -1,0 +1,9 @@
+2021-05-18 20:23:08,738 INFO c.e.d.GordonApplication [main] Starting GordonApplication on Gordons-MacBook-Pro.local with PID 52622 (/Users/gordonli/Desktop/ecommerce-app-backend/starter_code/target/classes started by gordonli in /Users/gordonli/Desktop/ecommerce-app-backend)
+2021-05-18 20:23:08,749 DEBUG c.e.d.GordonApplication [main] Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2021-05-18 20:23:08,751 INFO c.e.d.GordonApplication [main] No active profile set, falling back to default profiles: default
+2021-05-18 20:31:22,578 INFO c.e.d.GordonApplication [main] Starting GordonApplication on Gordons-MacBook-Pro.local with PID 53010 (/Users/gordonli/Desktop/ecommerce-app-backend/starter_code/target/classes started by gordonli in /Users/gordonli/Desktop/ecommerce-app-backend)
+2021-05-18 20:31:22,616 DEBUG c.e.d.GordonApplication [main] Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2021-05-18 20:31:22,619 INFO c.e.d.GordonApplication [main] No active profile set, falling back to default profiles: default
+2021-05-18 20:34:51,487 INFO c.e.d.GordonApplication [main] Starting GordonApplication on Gordons-MacBook-Pro.local with PID 53196 (/Users/gordonli/Desktop/ecommerce-app-backend/starter_code/target/classes started by gordonli in /Users/gordonli/Desktop/ecommerce-app-backend)
+2021-05-18 20:34:51,497 DEBUG c.e.d.GordonApplication [main] Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2021-05-18 20:34:51,498 INFO c.e.d.GordonApplication [main] No active profile set, falling back to default profiles: default
